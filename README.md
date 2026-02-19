@@ -48,7 +48,7 @@ Gap = √((VC - log δ)/n)
     = 0.06324 (6.3%)
 ```
 
-**Interpretation**: With 95% confidence, the difference between training error and true population error is ≤ 6.6%. L2 regularization helps keep this gap small by constraining model complexity.
+**Interpretation**: With 95% confidence, the difference between training error and true population error is ≤ 6.3%. L2 regularization helps keep this gap small by constraining model complexity.
 
 ## 🏗️ Project Structure
 
