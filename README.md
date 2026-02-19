@@ -79,26 +79,6 @@ pip install torch matplotlib numpy
 python main.py
 ```
 
-### Key PyTorch Components
-
-**Model definition:**
-```python
-import torch.nn as nn
-
-class LinearRegressionModel(nn.Module):
-    def __init__(self, input_dim=2, output_dim=1):
-        super().__init__()
-        self.linear = nn.Linear(input_dim, output_dim)
-    
-    def forward(self, x):
-        return self.linear(x)
-```
-
-**Training with regularization:**
-```python
-optimizer = torch.optim.SGD(model.parameters(), lr=0.01, weight_decay=0.001)  # L2 regularization
-criterion = nn.MSELoss()
-```
 
 ## 📚 Key Learnings
 
