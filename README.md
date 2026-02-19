@@ -37,7 +37,7 @@ This project demonstrates:
 | VC Dimension | 3 |
 | Regularization | L2 (weight decay = 0.001) |
 | Confidence level | 95% (δ = 0.05) |
-| **Generalization bound** | **~6.6%** |
+| **Generalization bound** | **~6.3%** |
 
 **Bound calculation:**
 ```
